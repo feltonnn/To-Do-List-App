@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { StyleSheet, Text, View, FlatList, Alert, TouchableWithoutFeedback, Keyboard } from 'react-native';
-import Header from './components/header'
-import TodoItem from './components/todoitem'
-import AddToDo from './components/addtodo'
+import Header from './components/header';
+import TodoItem from './components/todoitem';
+import AddToDo from './components/addtodo';
 
 export default function App() {
 
@@ -67,9 +67,11 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   content: {
+    flex: 1,
     padding: 40,
   },
   list: {
+    flex: 1,
     marginTop: 20,
   }
 });
